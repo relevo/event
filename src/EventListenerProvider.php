@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Relevo\Event;
 
-interface EventRouteProvider
+interface EventListenerProvider
 {
     /**
      * Add event routes to the given router.
