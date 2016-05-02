@@ -6,7 +6,7 @@ namespace Relevo\Event;
 interface EventRouter
 {
     /**
-     * Route event to listeners.
+     * Add event route.
      *
      * @param string $event
      * @param array $listeners

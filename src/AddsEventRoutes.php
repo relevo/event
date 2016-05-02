@@ -3,12 +3,12 @@ declare(strict_types = 1);
 
 namespace Relevo\Event;
 
-interface RoutesEvents
+interface AddsEventRoutes
 {
     /**
-     * Route events to listeners.
+     * Add event route to router.
      *
      * @param EventRouter $router
      */
-    public function routeEvents(EventRouter $router);
+    public function addEventRoutes(EventRouter $router);
 }
