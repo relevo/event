@@ -6,9 +6,9 @@ namespace Relevo\Event;
 interface EventListenerProvider
 {
     /**
-     * Add event routes to the given router.
+     * Register event listeners into the given router.
      *
      * @param EventRouter $router
      */
-    public function addEventRoutes(EventRouter $router);
+    public function registerEventListeners(EventRouter $router);
 }
