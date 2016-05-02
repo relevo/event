@@ -6,7 +6,7 @@ namespace Relevo\Event;
 interface AddsEventRoutes
 {
     /**
-     * Add event route to router.
+     * Add event routes to router.
      *
      * @param EventRouter $router
      */
